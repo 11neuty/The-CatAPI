@@ -162,7 +162,7 @@
     <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>rest-assured</artifactId>
-        <version>4.3.2</version>
+        <version>5.0.1</version>
         <scope>test</scope>
     </dependency>
     <dependency>
@@ -210,6 +210,12 @@
         <artifactId>json-schema-validator</artifactId>
         <version>5.3.2</version>
     </dependency>
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.5.14</version>
+    </dependency>
+
 
 
     <build>
